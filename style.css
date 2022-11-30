@@ -1,0 +1,21 @@
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    background-color: dimgrey;
+}
+
+button
+{
+    width: 50%;
+    height: 50%;
+}
+
+div
+{
+    color: white;
+    font-weight: bold;
+}
