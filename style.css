@@ -9,16 +9,57 @@ body{
   height: 10000px;
   background: linear-gradient(180deg, #f2fdfd 10%, #ddc2e4 51%, #fdffbb 75%, #c4b5ff 85%, #ffc3f5 95%, #f2fdfd 100%);
 }
-
-.head ul li{
-  padding-left: 10px;
-  padding-top: 10px;
-  font-weight: bold;
-  color: black;
+.head{
+  height: 20px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
 }
-
+.head ul li{
+  font-size: 18px;
+  list-style: none;
+  font-weight: bolder;
+  color: black;
+  text-decoration: none;
+  padding-left: 5px;
+}
 .head ul li a{
-color: black;
-text-decoration: none;
-    
+  color: black;
+  text-decoration: none;
+}
+.text h1{
+font-weight: bold;
+font-size: 140px;
+}
+.text h5{
+  font-weight: bold;
+  color: #fad900;
+  font-size: 25px;
+}
+.text .text1{
+  height: 150px;
+box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.text .text1 h1{
+  padding-top: 5px;
+  padding-left: 80px;
+}
+.text .text1 h5{
+  padding-top: 90px;
+  padding-right: 350px;
+}
+.text .text2{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.text .text2 h1{
+  padding-right: 200px;
+}
+.text .text2 h5{
+  padding-top: 55px;
+  padding-left: 80px;
 }
