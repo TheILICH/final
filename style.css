@@ -63,3 +63,11 @@ box-sizing: border-box;
   padding-top: 55px;
   padding-left: 80px;
 }
+.text .text2{
+  height:145px;
+}
+.text .text3 h1{
+  color: white;
+  text-align: center;
+   -webkit-text-stroke: 0.5px black;
+}
