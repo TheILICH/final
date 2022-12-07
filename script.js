@@ -1,11 +1,16 @@
-let N = 1e9;
+const first = document.getElementById("first")
+const second = document.getElementById("second")
 
-for (let i = 1; i * i <= N; ++i)
-{
-    console.log(`i = ${i}`);
-}
+const animate = (element,position) => {
+     element.style.transform = `translateX(${position}px)`
+} 
 
-const F = (id) =>
-{
-    document.getElementById(id).innerText = "abcdefghijklmnop";
-}
+document.addEventListener('scroll', function(e) {
+  lastKnownScrollPosition = window.scrollY;
+    
+   window.requestAnimationFrame(function() {
+      animate(first,lastKnownScrollPosition*-.8)
+      animate(second,lastKnownScrollPosition*.8)
+      
+    });
+});

@@ -31,6 +31,7 @@ body{
 .text h1{
 font-weight: bold;
 font-size: 140px;
+transition: 0.2s linear;
 }
 .text h5{
   font-weight: bold;
@@ -57,11 +58,11 @@ box-sizing: border-box;
   justify-content: space-between;
 }
 .text .text2 h1{
-  padding-right: 200px;
+  padding-right: 136px;
 }
 .text .text2 h5{
   padding-top: 55px;
-  padding-left: 80px;
+  padding-left: 190px;
 }
 .text .text2{
   height:145px;
