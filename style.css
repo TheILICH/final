@@ -16,8 +16,14 @@ body{
   display: flex;
   justify-content: space-between;
 }
+.head h1{
+  font-size: 40px;
+}
+.head h3{
+  font-size: 22px;
+}
 .head ul li{
-  font-size: 18px;
+  font-size: 22px;
   list-style: none;
   font-weight: bolder;
   color: black;
@@ -45,11 +51,11 @@ box-sizing: border-box;
   justify-content: space-between;
 }
 .text .text1 h1{
-  padding-top: 5px;
+  padding-top: 60px;
   padding-left: 80px;
 }
 .text .text1 h5{
-  padding-top: 90px;
+  padding-top: 147px;
   padding-right: 350px;
 }
 .text .text2{
@@ -58,14 +64,15 @@ box-sizing: border-box;
   justify-content: space-between;
 }
 .text .text2 h1{
+  padding-top: 50px;
   padding-right: 136px;
 }
 .text .text2 h5{
-  padding-top: 55px;
+  padding-top: 100px;
   padding-left: 190px;
 }
 .text .text2{
-  height:145px;
+  height:195px;
 }
 .text .text3 h1{
   color: white;
