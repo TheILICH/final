@@ -87,10 +87,10 @@ box-sizing: border-box;
   padding-left: 700px;
 }
 .new h1{
-font-size: 100px;
+font-size: 130px;
 }
 .new h2{
-  font-size: 30px;
+  font-size: 45px;
 }
 .new .first{
   padding-left: 350px;
@@ -100,6 +100,45 @@ font-size: 100px;
   padding-left: 10px;
   padding-top: 24px;
 }
+.new .second{
+  padding-left: 100px;
+  display: flex;
+   padding-top: 38px;
+}
+.new .second h2{
+  padding-top: 23px;
+  padding-left: 15px;
+}
+.new .third{
+  padding-left: 500px;
+  display: flex;
+   padding-top: 38px;
+}
+.new .third h2{
+  padding-top: 25px;
+  padding-left: 15px;
+}
+.new .fourth{
+  padding-left: 150px;
+  display: flex;
+   padding-top: 38px;
+}
+.new .fourth h2{
+  padding-top: 25px;
+  padding-left: 15px;
+}
+.new .fifth{
+  padding-left: 550px;
+  display: flex;
+   padding-top: 38px;
+}
+.new .fifth h2{
+  padding-top: 65px;
+  padding-left: 15px;
+}
+
+
+
 
 @media (max-width: 959px) {
 .head h1{
@@ -136,7 +175,28 @@ display: none;
   height: 300px;
   padding-left: 230px;
 }
+.new h1{
+font-size: 85px;
 }
+.new h2{
+  font-size: 25px;
+}
+.new .second{
+  padding-left: 270px;
+}
+.new .third{
+  padding-left: 230px;
+}
+.new .fourth{
+  padding-left: 310px;
+}
+.new .fifth{
+  padding-left: 290px;
+}
+}
+
+
+
 @media (max-width: 639px) {
 .head h1{
   font-size: 20px;
@@ -160,7 +220,7 @@ display: none;
 .text .text1 h1{
   text-shadow: #fad900 1px 0 10px;
   padding-top: 16px;
-  padding-left: 65px;
+  padding-left: 72px;
 }
 .text h5{
 display: none;
@@ -175,6 +235,42 @@ display: none;
 .text .text3 #pic{
   width: 500px;
   height: 300px;
-  padding-left: 35px;
+  padding-left: 25px;
+}
+.new h1{
+font-size: 65px;
+}
+.new h2{
+  font-size: 20px;
+}
+.new .first{
+  padding-left: 165px;
+}
+.new .first h2{
+  padding-top: 17px;
+}
+.new .second{
+  padding-left: 150px;
+}
+.new .second h2{
+  padding-top: 9px;
+}
+.new .third{
+  padding-left: 50px;
+}
+.new .third h2{
+  padding-top: 16px;
+}
+.new .fourth{
+  padding-left: 127px;
+}
+.new .fourth h2{
+  padding-top: 17px;
+}
+.new .fifth{
+  padding-left: 120px;
+}
+.new .fifth h2{
+  padding-top: 32px;
 }
 }
