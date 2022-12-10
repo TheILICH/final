@@ -39,7 +39,7 @@ var number = document.querySelector('#number'),
                 this.removeEventListener('scroll', onScroll);
                 var interval1 = setInterval(function() {
                     number1.innerHTML = ++start1;
-                    if(start1 == end1) {
+                    if(start1 === end1) {
                         clearInterval(interval1);
                     }
                 }, 5);
@@ -54,9 +54,12 @@ var number = document.querySelector('#number'),
                 this.removeEventListener('scroll', onScroll);
                 var interval2 = setInterval(function() {
                     number2.innerHTML = ++start2;
-                    if(start2 == end2) {
+                    if(start2 === end2) {
                         clearInterval(interval2);
                     }
                 }, 5);
             }
         });
+
+
+        // check commit
