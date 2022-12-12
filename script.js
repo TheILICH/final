@@ -60,3 +60,4 @@ var number = document.querySelector('#number'),
                 }, 5);
             }
         });
+

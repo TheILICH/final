@@ -57,7 +57,7 @@ box-sizing: border-box;
 }
 .text .text1 h5{
   padding-top: 147px;
-  padding-right: 350px;
+  padding-right: 400px;
 }
 .text .text2{
   box-sizing: border-box;
@@ -136,8 +136,10 @@ font-size: 130px;
   padding-top: 65px;
   padding-left: 15px;
 }
-
-
+.new1 h1{
+  font-size: 170px;
+  text-align: center;
+}
 
 
 @media (max-width: 959px) {
