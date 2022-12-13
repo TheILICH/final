@@ -190,6 +190,16 @@ font-size: 130px;
     transform: scale(1.5, 1.5);
   }
 }
+/*ползунок для сайта, можно стилизовать в конце*/
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 9em;
+}
 
 @media (max-width: 959px) {
 .head h1{
