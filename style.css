@@ -35,6 +35,9 @@ body{
   color: black;
   text-decoration: none;
 }
+.text{
+  overflow: hidden;
+}
 .text h1{
 font-weight: bold;
 font-size: 140px;
