@@ -37,6 +37,7 @@ body{
 }
 .text{
   overflow: hidden;
+
 }
 .text h1{
 font-weight: bold;
@@ -144,6 +145,51 @@ font-size: 130px;
   text-align: center;
 }
 
+.pulse-button{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  padding: 10px;
+  border: none;
+  background: black;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  outline: none;
+  z-index: 1000;
+  color: white;
+}
+.pulse-button-ring{
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  border-radius: 50%;
+  animation-duration: 2.0s;
+  animation-name: pulse_1;
+  animation-iteration-count: infinite;
+  z-index: -1;
+}
+@keyframes pulse_1 {
+  from {
+    opacity: 1;
+    transform: scale(0.9, 0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1.5, 1.5);
+  }
+}
 
 @media (max-width: 959px) {
 .head h1{
@@ -199,6 +245,7 @@ font-size: 85px;
   padding-left: 290px;
 }
 }
+
 
 
 
