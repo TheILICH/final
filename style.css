@@ -1,338 +1,345 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
-  font-family: 'Poppins', sans-serif;
-  margin: 0; padding: 0;
-  text-decoration: none;
+html
+{
+    width: 100%;
+    height: 100%;
 }
 
-body{
-  height: 10000px;
-  background: linear-gradient(180deg, #f2fdfd 10%, #ddc2e4 51%, #fdffbb 75%, #c4b5ff 85%, #ffc3f5 95%, #f2fdfd 100%);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    text-decoration: none;
+}
+
+body
+{
+    /*height: 10000px;*/
+    background: linear-gradient(180deg, #f2fdfd 10%, #ddc2e4 51%, #fdffbb 75%, #c4b5ff 85%, #ffc3f5 95%, #f2fdfd 100%);
 }
 
 .head{
-  height: 20px;
-  padding-top: 5px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
+    height: 20px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
 }
 .head h1{
-  font-size: 40px;
+    font-size: 40px;
 }
 .head h3{
-  font-size: 22px;
+    font-size: 22px;
 }
 .head ul li{
-  font-size: 22px;
-  list-style: none;
-  font-weight: bolder;
-  color: black;
-  text-decoration: none;
-  padding-left: 5px;
+    font-size: 22px;
+    list-style: none;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
 }
 .head ul li a{
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 .text{
-  overflow: hidden;
+    overflow: hidden;
 
 }
 .text h1{
-font-weight: bold;
-font-size: 140px;
-transition: 0.2s linear;
+    font-weight: bold;
+    font-size: 140px;
+    transition: 0.2s linear;
 }
 .text h5{
-  font-weight: bold;
-  color: #fad900;
-  font-size: 25px;
+    font-weight: bold;
+    color: #fad900;
+    font-size: 25px;
 }
 .text .text1{
-  height: 150px;
-box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
 }
 .text .text1 h1{
-  padding-top: 60px;
-  padding-left: 80px;
+    padding-top: 60px;
+    padding-left: 80px;
 }
 .text .text1 h5{
-  padding-top: 147px;
-  padding-right: 400px;
+    padding-top: 147px;
+    padding-right: 400px;
 }
 .text .text2{
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
 }
 .text .text2 h1{
-  padding-top: 50px;
-  padding-right: 136px;
+    padding-top: 50px;
+    padding-right: 136px;
 }
 .text .text2 h5{
-  padding-top: 100px;
-  padding-left: 185px;
+    padding-top: 100px;
+    padding-left: 185px;
 }
 .text .text2{
-  height:140px;
+    height:140px;
 }
 .text .text3 h1{
-  padding-top: 43px;
-  color: white;
-  text-align: center;
-   -webkit-text-stroke: 0.5px black;
+    padding-top: 43px;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 0.5px black;
 }
 .text .text3 #pic{
-  width: 500px;
-  height: 300px;
-  padding-left: 700px;
+    width: 500px;
+    height: 300px;
+    padding-left: 700px;
 }
 .new h1{
-font-size: 130px;
+    font-size: 130px;
 }
 .new h2{
-  font-size: 45px;
+    font-size: 45px;
 }
 .new .first{
-  padding-left: 350px;
-  display: flex;
+    padding-left: 350px;
+    display: flex;
 }
 .new .first h2{
-  padding-left: 10px;
-  padding-top: 24px;
+    padding-left: 10px;
+    padding-top: 24px;
 }
 .new .second{
-  padding-left: 100px;
-  display: flex;
-   padding-top: 38px;
+    padding-left: 100px;
+    display: flex;
+    padding-top: 38px;
 }
 .new .second h2{
-  padding-top: 23px;
-  padding-left: 15px;
+    padding-top: 23px;
+    padding-left: 15px;
 }
 .new .third{
-  padding-left: 500px;
-  display: flex;
-   padding-top: 38px;
+    padding-left: 500px;
+    display: flex;
+    padding-top: 38px;
 }
 .new .third h2{
-  padding-top: 25px;
-  padding-left: 15px;
+    padding-top: 25px;
+    padding-left: 15px;
 }
 .new .fourth{
-  padding-left: 150px;
-  display: flex;
-   padding-top: 38px;
+    padding-left: 150px;
+    display: flex;
+    padding-top: 38px;
 }
 .new .fourth h2{
-  padding-top: 25px;
-  padding-left: 15px;
+    padding-top: 25px;
+    padding-left: 15px;
 }
 .new .fifth{
-  padding-left: 550px;
-  display: flex;
-   padding-top: 38px;
+    padding-left: 550px;
+    display: flex;
+    padding-top: 38px;
 }
 .new .fifth h2{
-  padding-top: 65px;
-  padding-left: 15px;
+    padding-top: 65px;
+    padding-left: 15px;
 }
 .new1 h1{
-  font-size: 170px;
-  text-align: center;
+    font-size: 170px;
+    text-align: center;
 }
 
 .pulse-button{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
-  padding: 10px;
-  border: none;
-  background: black;
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
-  cursor: pointer;
-  outline: none;
-  z-index: 1000;
-  color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    background: black;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    outline: none;
+    z-index: 1000;
+    color: white;
 }
 .pulse-button-ring{
-  border: 1px solid black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: auto;
-  width: auto;
-  border-radius: 50%;
-  animation-duration: 2.0s;
-  animation-name: pulse_1;
-  animation-iteration-count: infinite;
-  z-index: -1;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    animation-duration: 2.0s;
+    animation-name: pulse_1;
+    animation-iteration-count: infinite;
+    z-index: -1;
 }
 @keyframes pulse_1 {
-  from {
-    opacity: 1;
-    transform: scale(0.9, 0.9);
-  }
+    from {
+        opacity: 1;
+        transform: scale(0.9, 0.9);
+    }
 
-  to {
-    opacity: 1;
-    transform: scale(1.5, 1.5);
-  }
+    to {
+        opacity: 1;
+        transform: scale(1.5, 1.5);
+    }
 }
 /*ползунок для сайта, можно стилизовать в конце*/
 ::-webkit-scrollbar {
-  width: 7px;
-  background-color: whitesmoke;
+    width: 7px;
+    background-color: whitesmoke;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: black;
-  border-radius: 9em;
+    background-color: black;
+    border-radius: 9em;
 }
 
 @media (max-width: 959px) {
-.head h1{
-  font-size: 40px;
+    .head h1{
+        font-size: 40px;
 
-}
-.head h3{
-  font-size: 15px;
-}
-.head ul li{
-  font-size: 15px;
-}
-.text h1{
-  font-size: 110px;
-}
-.text .text1 h1{
-  text-shadow: #fad900 1px 0 10px;
-  padding-top: 20px;
-  padding-left: 30px;
-}
-.text h5{
-display: none;
-}
-.text .text2 h1{
-  text-shadow: #fad900 1px 0 10px;
-  padding-top: 5px;
-  padding-left: 220px;
-}
-.text .text3 h1{
-  padding-top: 5px;
-}
-.text .text3 #pic{
-  width: 500px;
-  height: 300px;
-  padding-left: 230px;
-}
-.new h1{
-font-size: 85px;
-}
-.new h2{
-  font-size: 25px;
-}
-.new .second{
-  padding-left: 270px;
-}
-.new .third{
-  padding-left: 230px;
-}
-.new .fourth{
-  padding-left: 310px;
-}
-.new .fifth{
-  padding-left: 290px;
-}
+    }
+    .head h3{
+        font-size: 15px;
+    }
+    .head ul li{
+        font-size: 15px;
+    }
+    .text h1{
+        font-size: 110px;
+    }
+    .text .text1 h1{
+        text-shadow: #fad900 1px 0 10px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .text h5{
+        display: none;
+    }
+    .text .text2 h1{
+        text-shadow: #fad900 1px 0 10px;
+        padding-top: 5px;
+        padding-left: 220px;
+    }
+    .text .text3 h1{
+        padding-top: 5px;
+    }
+    .text .text3 #pic{
+        width: 500px;
+        height: 300px;
+        padding-left: 230px;
+    }
+    .new h1{
+        font-size: 85px;
+    }
+    .new h2{
+        font-size: 25px;
+    }
+    .new .second{
+        padding-left: 270px;
+    }
+    .new .third{
+        padding-left: 230px;
+    }
+    .new .fourth{
+        padding-left: 310px;
+    }
+    .new .fifth{
+        padding-left: 290px;
+    }
 }
 
 
 
 
 @media (max-width: 639px) {
-.head h1{
-  font-size: 20px;
+    .head h1{
+        font-size: 20px;
 
-}
-.head h3{
-  font-size: 10px;
-}
-.head ul li{
-  font-size: 10px;
-}
-.text h1{
-  font-size: 60px;
-}
-.text .text1{
-  height: 80px;
-}
-.text .text2{
-  height: 65px;
-}
-.text .text1 h1{
-  text-shadow: #fad900 1px 0 10px;
-  padding-top: 16px;
-  padding-left: 72px;
-}
-.text h5{
-display: none;
-}
-.text .text2 h1{
-  text-shadow: #fad900 1px 0 10px;
-  padding-left: 65px;
-}
-.text .text3 h1{
-  padding-top: 5px;
-}
-.text .text3 #pic{
-  width: 500px;
-  height: 300px;
-  padding-left: 25px;
-}
-.new h1{
-font-size: 65px;
-}
-.new h2{
-  font-size: 20px;
-}
-.new .first{
-  padding-left: 165px;
-}
-.new .first h2{
-  padding-top: 17px;
-}
-.new .second{
-  padding-left: 150px;
-}
-.new .second h2{
-  padding-top: 9px;
-}
-.new .third{
-  padding-left: 50px;
-}
-.new .third h2{
-  padding-top: 16px;
-}
-.new .fourth{
-  padding-left: 127px;
-}
-.new .fourth h2{
-  padding-top: 17px;
-}
-.new .fifth{
-  padding-left: 120px;
-}
-.new .fifth h2{
-  padding-top: 32px;
-}
+    }
+    .head h3{
+        font-size: 10px;
+    }
+    .head ul li{
+        font-size: 10px;
+    }
+    .text h1{
+        font-size: 60px;
+    }
+    .text .text1{
+        height: 80px;
+    }
+    .text .text2{
+        height: 65px;
+    }
+    .text .text1 h1{
+        text-shadow: #fad900 1px 0 10px;
+        padding-top: 16px;
+        padding-left: 72px;
+    }
+    .text h5{
+        display: none;
+    }
+    .text .text2 h1{
+        text-shadow: #fad900 1px 0 10px;
+        padding-left: 65px;
+    }
+    .text .text3 h1{
+        padding-top: 5px;
+    }
+    .text .text3 #pic{
+        width: 500px;
+        height: 300px;
+        padding-left: 25px;
+    }
+    .new h1{
+        font-size: 65px;
+    }
+    .new h2{
+        font-size: 20px;
+    }
+    .new .first{
+        padding-left: 165px;
+    }
+    .new .first h2{
+        padding-top: 17px;
+    }
+    .new .second{
+        padding-left: 150px;
+    }
+    .new .second h2{
+        padding-top: 9px;
+    }
+    .new .third{
+        padding-left: 50px;
+    }
+    .new .third h2{
+        padding-top: 16px;
+    }
+    .new .fourth{
+        padding-left: 127px;
+    }
+    .new .fourth h2{
+        padding-top: 17px;
+    }
+    .new .fifth{
+        padding-left: 120px;
+    }
+    .new .fifth h2{
+        padding-top: 32px;
+    }
 }

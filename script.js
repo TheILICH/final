@@ -54,7 +54,7 @@ var number = document.querySelector('#number'),
                 this.removeEventListener('scroll', onScroll);
                 var interval2 = setInterval(function() {
                     number2.innerHTML = ++start2;
-                    if(start2 == end2) {
+                    if(start2 === end2) {
                         clearInterval(interval2);
                     }
                 }, 5);
