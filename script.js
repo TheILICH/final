@@ -61,3 +61,16 @@ var number = document.querySelector('#number'),
             }
         });
 
+//скорость скролла
+const wed = document.getElementById("wed");
+
+const slow_scroll = (element,position) => {
+    element.style.transform = `translateY(${position}px)`
+}
+document.addEventListener('scroll', function(e) {
+    lastKnownScrollPosition = window.scrollY;
+
+    window.requestAnimationFrame(function() {
+        slow_scroll(wed,lastKnownScrollPosition*0.1);
+    });
+});
