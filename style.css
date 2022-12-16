@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html
 {
     width: 100%;
     height: 100%;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0; padding: 0;
@@ -18,7 +17,7 @@ body
 }
 
 .head{
-    height: 20px;
+    height: 100px;
     padding-top: 5px;
     box-sizing: border-box;
     display: flex;
@@ -31,6 +30,7 @@ body
     font-size: 22px;
 }
 .head ul li{
+    cursor: pointer;
     font-size: 22px;
     list-style: none;
     font-weight: bolder;
@@ -44,7 +44,6 @@ body
 }
 .text{
     overflow: hidden;
-
 }
 .text h1{
     font-weight: bold;
@@ -54,21 +53,21 @@ body
 .text h5{
     font-weight: bold;
     color: #fad900;
-    font-size: 25px;
+    font-size: 28px;
+          text-shadow: black 1px 0 10px;
 }
 .text .text1{
-    height: 150px;
+    height: 170px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
 }
 .text .text1 h1{
-    padding-top: 60px;
     padding-left: 80px;
 }
 .text .text1 h5{
-    padding-top: 147px;
-    padding-right: 400px;
+    padding-top: 60px;
+    padding-right: 380px;
 }
 .text .text2{
     box-sizing: border-box;
@@ -76,18 +75,17 @@ body
     justify-content: space-between;
 }
 .text .text2 h1{
-    padding-top: 50px;
     padding-right: 136px;
 }
 .text .text2 h5{
-    padding-top: 100px;
+    padding-top: 40px;
     padding-left: 185px;
 }
 .text .text2{
     height:140px;
 }
 .text .text3 h1{
-    padding-top: 43px;
+    padding-top: 30px;
     color: white;
     text-align: center;
     -webkit-text-stroke: 0.5px black;
