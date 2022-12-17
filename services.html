@@ -9,6 +9,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0; padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
     .head{
@@ -31,8 +32,41 @@
     color: black;
     text-decoration: none;
 }
- </style>
-</head>
+.smth{
+     box-sizing: border-box;
+       display: flex;
+}
+.smth h1{
+    padding-top: 55px;
+    font-size: 150px;
+    padding-left: 70px;
+     line-height: 140px;
+}
+      .container {
+        margin: 100px;
+      }
+
+      .my-button {
+        margin-top: 10px;
+        width: 280px;
+        height: 280px;
+        border: none;
+        border-radius: 200px;
+        outline: none;
+        background: white;
+        color: black; 
+        font-weight: bold;
+        font-size: 35px;
+        cursor: pointer;
+        box-shadow: 0 5px 20px black;
+      }
+      .my-button:hover {
+        background: black;
+        color: white;
+      }
+
+    </style>
+  </head>
 <body>
    <div class = "head">
          <ul>
@@ -42,6 +76,19 @@
    </ul>
        <h1>ALEX S.</h1>
       <h3>+380 66 100 55 <br> 10</h3>
+  </div>
+  <div class = "smth">
+    <div class = "text">
+    <h1> I AM </h1>
+    <h1>TAKING</h1>
+</div>
+<div class="container">
+      <button class="my-button btn1">WEDDINGS</button>
+      <button class="my-button btn2">PHOTOSETS</button>
+      <button class="my-button btn2">CONTENT</button>
+      <button class="my-button btn2">CARS</button>
+      <button class="my-button btn2">EVENTS</button>
+    </div>
   </div>
     </body>
     </html>       
