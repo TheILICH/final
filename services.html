@@ -46,7 +46,7 @@
         margin: 100px;
       }
 
-      .my-button {
+      .btn button {
         margin-top: 10px;
         width: 280px;
         height: 280px;
@@ -60,10 +60,70 @@
         cursor: pointer;
         box-shadow: 0 5px 20px black;
       }
-      .my-button:hover {
+      .btn button:hover {
         background: black;
         color: white;
       }
+.btn #btn1:hover:after{
+ content: ' ';
+  display: inline-block;
+  position: absolute;
+  background-image:url("https://static.tildacdn.com/tild6537-6332-4264-b337-316663323837/DSC00537.jpg");
+  z-index: -1; 
+  background-size: contain;
+  height: 300px;
+  width: 450px; 
+  top: 175px;
+  right: 85px;
+}
+.btn #btn2:hover:after{
+ content: ' ';
+  display: inline-block;
+  position: absolute;
+  background-image:url("https://static.tildacdn.com/tild3261-3237-4637-b736-666466633630/DSC_2165.jpeg");
+  z-index: -1; 
+  background-size: contain;
+  height: 300px;
+  width: 450px;
+  top: 470px;
+  right: 85px;
+}
+.btn #btn3:hover:after{
+ content: ' ';
+  display: inline-block;
+  position: absolute;
+  background-image:url("https://static.tildacdn.com/tild3735-3336-4436-b365-393737666666/DSC01245.jpg");
+  z-index: -1; 
+  background-size: contain;
+  height: 300px;
+  width: 450px;
+  top: 760px;
+  right: 85px;
+}
+.btn #btn4:hover:after{
+ content: ' ';
+  display: inline-block;
+  position: absolute;
+  background-image:url("https://static.tildacdn.com/tild6434-3031-4230-a265-303236346437/DSC_3241.jpeg");
+  z-index: -1; 
+  background-size: contain;
+  height: 300px;
+  width: 450px;
+  top: 1050px;
+  right: 85px;
+}
+.btn #btn5:hover:after{
+ content: ' ';
+  display: inline-block;
+  position: absolute;
+  background-image:url("https://static.tildacdn.com/tild6339-3335-4535-a137-613733663964/86.jpg");
+  z-index: -1; 
+  background-size: contain;
+  height: 300px;
+  width: 450px;
+  top: 1340px;
+  right: 85px;
+}
 
     </style>
   </head>
@@ -83,11 +143,12 @@
     <h1>TAKING</h1>
 </div>
 <div class="container">
-      <button class="my-button btn1">WEDDINGS</button>
-      <button class="my-button btn2">PHOTOSETS</button>
-      <button class="my-button btn2">CONTENT</button>
-      <button class="my-button btn2">CARS</button>
-      <button class="my-button btn2">EVENTS</button>
+    <div class="btn">
+      <button id="btn1">WEDDINGS</button>
+      <button id="btn2">PHOTOSETS</button>
+      <button id="btn3">CONTENT</button>
+      <button id="btn4">CARS</button>
+      <button id="btn5">EVENTS</button>
     </div>
   </div>
     </body>
