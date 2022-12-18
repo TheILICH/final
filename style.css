@@ -372,7 +372,31 @@ div{
     .img-set-2, .img-set-3{
         margin-left: 0;
     }
-}
+    .img-set-4{
+        display: inline;
+    }
+    .img-set-4 #ph1{
+        padding-left: 25px;
+    }
+    .img-set-4 #ph2{
+        padding-left: 190px;
+    }
+    .img-set-5 {
+      margin-left: -35px;
+    }
+    .img-set-6{
+        display: inline;
+    }
+    .img-set-6 #ph3{
+        padding-left: 100px;
+    }
+    .img-set-6 #ph4{
+        padding-left: 95px;
+    }
+    .img-set-7{
+        margin-left: -90px;
+    }
+ }
 
 @media (max-width: 959px) {
     .head h1{
