@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+ <style>
+    *{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    text-decoration: none;
+}
+
+    .head{
+    height: 90px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.head ul li{
+    cursor: pointer;
+    font-size: 22px;
+    list-style: none;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.head ul li a{
+    color: black;
+    text-decoration: none;
+}
+.topmenu li a:hover { 
+    color: black; 
+}
+.submenu {
+  background: white;
+  border: 2px solid #003559;
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 5;
+  width: 150px;
+  transform: perspective(600px) rotateX(-90deg);
+  transform-origin: 0% 0%;
+  transition: .6s ease-in-out;
+}
+.topmenu > li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+  transform: perspective(600px) rotateX(0deg);
+}
+.submenu li a {
+  color: black;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 0 25px;
+  font-family: 'Poppins', serif;
+}
+</style>
+</head>
+<body>
+     <div class = "head">
+         <ul class="topmenu">
+              <li><a href="index.html">HOME</a></li>
+             <li><a href="services.html">SERVICES</a></li>
+    <li><a href="" class="down">WORKS</a>
+      <ul class="submenu">
+        <li><a href="weddings.html">WEDDINGS</a></li>
+        <li><a href="photosets.html">PHOTOSETS</a></li>
+        <li><a href="content.html">CONTENT</a></li>
+        <li><a href="cars.html">CARS</a></li>
+        <li><a href="events.html">EVENTS</a></li>
+      </ul>
+    </li>
+   </ul>
+       <h1>ALEX S.</h1>
+      <h3>+380 66 100 55 <br> 10</h3>
+  </div>
+</body>
+</html>
