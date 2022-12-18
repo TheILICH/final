@@ -173,6 +173,16 @@ html
     font-size: 170px;
     text-align: center;
 }
+.new1 #wed{
+    text-align: center;
+    font-size: 220px;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.new2 #photo{
+    text-align: center;
+    font-size: 220px;
+    }
 
 .pulse-button{
     display: flex;
@@ -260,7 +270,14 @@ html
     /*height: auto;*/
     width: auto ;
     max-width: 100%;
-
+}
+.img-set-4 {
+display: flex;
+    margin: auto auto;
+    justify-content: space-evenly;
+}
+.img-set-6{
+    display: flex;
 }
 div{
     border: 1px solid red;
@@ -341,6 +358,7 @@ div{
         color: black;
     text-decoration: none;
     }
+
 
 @media only screen and (max-width: 900px) {
     .img-set-1{
