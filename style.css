@@ -251,6 +251,9 @@ div{
     padding-left: 140px;
      line-height: 140px;
 }
+.btn h1{
+    display: none;
+}
 
       .btn button {
         margin-top: 20px;
@@ -533,5 +536,6 @@ div{
     .btn h1{
         display: inline;
         font-size: 62px;
+       margin-top: 40px;
     }
 }
