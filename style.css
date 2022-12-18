@@ -240,6 +240,75 @@ div{
     top: -200px;
     z-index: -1;
 }
+.smth{
+     box-sizing: border-box;
+       display: flex;
+}
+.smth h1{
+    width: 1900px;
+    padding-top: 55px;
+    font-size: 150px;
+    padding-left: 140px;
+     line-height: 140px;
+}
+
+      .btn button {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 280px;
+        height: 280px;
+        border: none;
+        border-radius: 200px;
+        outline: none;
+        background: white;
+        color: black; 
+        font-weight: bold;
+        font-size: 35px;
+        cursor: pointer;
+        box-shadow: 0 5px 20px black;
+      }
+      .btn button:hover {
+        background: black;
+        color: white;
+      }
+
+.textph{
+    box-sizing: border-box;
+    display: flex;
+}
+.textph img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 230px;
+}
+.textph h1{
+    font-size: 65px;
+    text-align: center;
+}
+.texttt{
+    text-align: center;
+}
+    .texttt h1{
+        font-size: 50px;
+        padding-top: 20px;
+  text-align: center;
+    }
+    .texttt ul li{
+         padding-top: 30px;
+        display: inline-block;
+        cursor: pointer;
+    font-size: 18px;
+    list-style: none;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    }
+    .texttt ul li a{
+        color: black;
+    text-decoration: none;
+    }
 
 @media only screen and (max-width: 900px) {
     .img-set-1{
@@ -308,7 +377,44 @@ div{
     .new .fifth{
         padding-left: 290px;
     }
+    .smth{
+     box-sizing: border-box;
+       display: flex;
 }
+.smth h1{
+    font-size: 85px;
+    padding-left: 60px;
+     line-height: 45px;
+}
+.btn h1{
+    display: none;
+}
+      .btn button {
+        width: 220px;
+        height: 220px;
+      }
+
+.textph{
+    box-sizing: border-box;
+    display: flex;
+}
+.textph img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 190px;
+}
+.textph h1{
+    font-size: 40px;
+    text-align: center;
+}
+    .texttt h1{
+        font-size: 30px;
+    }
+    .texttt ul li{
+    font-size: 17px;
+    }
+    }
 
 
 
@@ -389,33 +495,17 @@ div{
     .new .fifth h2{
         padding-top: 32px;
     }
-}
-.smth{
-     box-sizing: border-box;
+    .smth{
        display: flex;
 }
 .smth h1{
-    width: 1900px;
-    padding-top: 55px;
-    font-size: 150px;
-    padding-left: 140px;
-     line-height: 140px;
+    display: none;
 }
 
       .btn button {
-        margin-top: 20px;
-        margin-left: 20px;
-        width: 280px;
-        height: 280px;
-        border: none;
-        border-radius: 200px;
-        outline: none;
-        background: white;
-        color: black; 
-        font-weight: bold;
-        font-size: 35px;
-        cursor: pointer;
-        box-shadow: 0 5px 20px black;
+        width: 230px;
+        height: 230px;
+        margin-left: 120px;
       }
       .btn button:hover {
         background: black;
@@ -427,35 +517,21 @@ div{
     display: flex;
 }
 .textph img{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    margin-left: 230px;
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
 }
 .textph h1{
-    font-size: 65px;
-    text-align: center;
-}
-.texttt{
-    text-align: center;
+    font-size: 55px;
 }
     .texttt h1{
-        font-size: 50px;
-        padding-top: 20px;
-  text-align: center;
+        font-size: 30px;
     }
     .texttt ul li{
-         padding-top: 30px;
-        display: inline-block;
-        cursor: pointer;
-    font-size: 18px;
-    list-style: none;
-    font-weight: bolder;
-    color: black;
-    text-decoration: none;
-    padding-left: 5px;
+    font-size: 15px;
     }
-    .texttt ul li a{
-        color: black;
-    text-decoration: none;
+    .btn h1{
+        display: inline;
+        font-size: 62px;
     }
+}
