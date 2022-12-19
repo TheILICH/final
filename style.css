@@ -207,12 +207,22 @@ html
     transition: width 2s, height 2s, background-color 2s, transform 0.5s;
 }
 .new2 #photo{
-    margin-top: -200px;
+    margin-top: -300px;
     text-align: center;
     font-size: 220px;
     -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 0.5s;
     transition: width 2s, height 2s, background-color 2s, transform 0.5s;
-    }
+}
+.new2{
+    height: 400px;
+}
+.new2 #content{
+    margin-top: -600px;
+    text-align: center;
+    font-size: 220px;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 0.5s;
+    transition: width 2s, height 2s, background-color 2s, transform 0.5s;
+}
 .pulse-button{
     display: flex;
     flex-wrap: wrap;
@@ -449,7 +459,91 @@ html
     grid-area: emty-2-4;
     text-align: center;
 }
+.grid-container-3 {
+    margin: 0 50px 0 50px;
+    display: grid;
+    grid-template-areas:
+'empty-3-1 img-3-1 img-3-1 img-3-1 empty-3-2'
+'empty-3-3 img-3-2 img-3-2 img-3-2 empty-3-4'
+'img-3-3 img-3-3 img-3-3 img-3-5 img-3-5'
+'empty-3-5 img-3-4 img-3-4 img-3-5 img-3-5'
+'empty-3-5 img-3-4 img-3-4 empty-3-6 empty-3-6';
+    column-gap: 100px;
+    row-gap: 10px;
+    margin-left: 5%;
+}
+.item-3-1{
+    grid-area: empty-3-1;
+    text-align: center;
+}
+.item-3-2{
+    grid-area: img-3-1;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild3136-6532-4539-b237-353564306532/1-1__.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 600px;
+    margin-left: -10%;
+}
+.item-3-3{
+    grid-area: empty-3-2;
+    text-align: center;
+}
+.item-3-4{
+    grid-area: empty-3-3;
+    text-align: center;
+}
+.item-3-5{
+    grid-area: img-3-2;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild3663-6539-4461-a634-303366663537/6.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 560px;
+    margin-left: 5%;
 
+}
+.item-3-6{
+    grid-area: empty-3-4;
+    text-align: center;
+}
+.item-3-7{
+    grid-area: img-3-3;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild6232-3432-4061-b530-353465653239/3__.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 511px;
+}
+.item-3-8{
+    grid-area: empty-3-5;
+    text-align: center;
+}
+.item-3-9{
+    grid-area: img-3-4;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild3633-3631-4230-b561-636435653439/5.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 725px;
+}
+.item-3-10{
+    grid-area: img-3-5;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild3063-6465-4463-b530-626533313530/4_1.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 660px;
+}
+.item-3-11{
+    grid-area: empty-3-6;
+    text-align: center;
+}
 .over
 {
     font-family: "Droid Sans Mono", sans-serif;
