@@ -59,6 +59,86 @@
   padding: 0 25px;
   font-family: 'Poppins', serif;
 }
+.textph{
+    box-sizing: border-box;
+    display: flex;
+}
+.textph img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 230px;
+}
+.textph h1{
+    font-size: 65px;
+    text-align: center;
+}
+.texttt{
+    text-align: center;
+}
+    .texttt h1{
+        font-size: 50px;
+        padding-top: 20px;
+  text-align: center;
+    }
+    .texttt ul li{
+         padding-top: 30px;
+        display: inline-block;
+        cursor: pointer;
+    font-size: 18px;
+    list-style: none;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    }
+    .texttt ul li a{
+        color: black;
+    text-decoration: none;
+    }
+
+@media (max-width: 959px) {
+    .textph{
+    box-sizing: border-box;
+    display: flex;
+}
+.textph img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 140px;
+}
+.textph h1{
+    font-size: 40px;
+    text-align: center;
+}
+    .texttt h1{
+        font-size: 30px;
+    }
+    .texttt ul li{
+    font-size: 17px;
+    }
+}
+@media (max-width: 639px) {
+    .textph{
+    box-sizing: border-box;
+    display: flex;
+}
+.textph img{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+.textph h1{
+    font-size: 55px;
+}
+    .texttt h1{
+        font-size: 30px;
+    }
+    .texttt ul li{
+    font-size: 15px;
+    }
+    }
 </style>
 </head>
 <body>
@@ -79,5 +159,24 @@
        <h1>ALEX S.</h1>
       <h3>+380 66 100 55 <br> 10</h3>
   </div>
+    <div class="foot">
+    <div class="textph">
+     <img src="alex.jpg">
+    <h1>+38 066 100 55 10</h1>
+ <!--здесь нужно добавить конпки пульсирующие и ещё анимацию-->
+</div>
+<div class="texttt">
+    <h1>SHPRO1@GMAIL.COM</h1>
+    <ul>
+    <li><a href="services.html">SERVICES</a></li>
+    <li><a href="weddings.html">WEDDING</a></li>
+    <li><a href='photosets.html'>PHOTOSET</a></li>
+    <li><a href='content.html'>CONTENT</a></li>
+    <li><a href='car.html'>CAR</a></li>
+    <li><a href='event.html'>EVENT</a></li>
+   </ul>
+    </div>
+  </div>
+</div>
 </body>
 </html>
