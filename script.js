@@ -63,6 +63,7 @@ var number = document.querySelector('#number'),
 
 //скорость скролла
 const wed = document.getElementById("wed");
+const photo = document.getElementById("photo");
 
 const slow_scroll = (element,position) => {
     element.style.transform = `translateY(${position}px)`
@@ -72,5 +73,8 @@ document.addEventListener('scroll', function(e) {
 
     window.requestAnimationFrame(function() {
         slow_scroll(wed,lastKnownScrollPosition*0.1);
+    });
+    window.requestAnimationFrame(function() {
+        slow_scroll(photo,lastKnownScrollPosition*0.1);
     });
 });
