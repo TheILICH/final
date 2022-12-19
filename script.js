@@ -65,6 +65,7 @@ var number = document.querySelector('#number'),
 const wed = document.getElementById("wed");
 const photo = document.getElementById("photo");
 const content = document.getElementById("content");
+const cars = document.getElementById("cars");
 
 const slow_scroll = (element,position) => {
     element.style.transform = `translateY(${position}px)`
@@ -80,6 +81,9 @@ document.addEventListener('scroll', function(e) {
     });
     window.requestAnimationFrame(function() {
         slow_scroll(content,lastKnownScrollPosition*0.1);
+    });
+    window.requestAnimationFrame(function() {
+        slow_scroll(cars,lastKnownScrollPosition*0.1);
     });
 });
 
