@@ -6,10 +6,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
  <style>
     *{
+        animation: hey 0.8s;
     font-family: 'Poppins', sans-serif;
     margin: 0; padding: 0;
     text-decoration: none;
 }
+@keyframes hey{
+            from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+         }
+        }
 
     .head{
     height: 90px;
@@ -64,11 +72,21 @@
        display: flex;
 }
 .smth h1{
+    animation: fadeIn 0.8s;
     padding-top: 55px;
     font-size: 150px;
     padding-left: 70px;
      line-height: 140px;
 }
+@keyframes fadeIn{
+         from{
+            opacity: 0;
+            transform: translateY(-100px);
+         } to{
+            opacity: 1;
+            transform: translateY(0);
+         }
+        }
       .container {
         margin: 100px;
       }
@@ -167,12 +185,14 @@
     display: flex;
 }
 .textph img{
+    animation: fadeIn 0.8s;
     border-radius: 50%;
     width: 250px;
     height: 250px;
     margin-left: 230px;
 }
 .textph h1{
+    animation: fadeIn 0.8s;
     font-size: 65px;
     text-align: center;
 }
