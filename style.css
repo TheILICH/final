@@ -361,6 +361,95 @@ html
     height: 360px;
 }
 .item-1-8 { grid-area: emty4; text-align: center;}
+.grid-container2 {
+    margin: 0 50px 0 50px;
+    display: grid;
+    grid-template-areas:
+'img21 img21 img21 emty21 emty21'
+'img21 img21 img21 img22 img22'
+'emty22 img23 img23 img23 emty23'
+'img24 img24 img24 img25 img25'
+'img-2-6 img-2-6 img-2-6 emty-2-4 emty-2-4';
+    column-gap: 100px;
+    row-gap: 10px;
+    margin-left: 5%;
+}
+
+.item-2-1 {
+    grid-area: img21;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild6665-6232-4664-a531-343963353334/DSC_1215___1.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 1200px;
+    /*border: 10px solid blue;*/
+}
+.item-2-2 {
+    grid-area: emty21;
+    text-align: center;
+    height: 600px;
+}
+.item-2-3 {
+    grid-area: img22;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild3030-6432-4966-a563-613236666530/DSC_3741__.jpeg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 600px;
+}
+.item-2-4 {
+    grid-area: emty22;
+    text-align: center;
+}
+.item-2-5{
+    grid-area: img23;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild6361-3165-4261-a164-393234636439/DSC_5880.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 505px;
+}
+.item-2-6{
+    grid-area: emty23;
+    text-align: center;
+}
+.item-2-7{
+    grid-area: img24;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild6261-6361-4561-b262-333634336235/DSC07839_1__.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 505px;
+    margin-left: 5%;
+}
+.item-2-8{
+    grid-area: img25;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild3736-3935-4139-b237-353262666535/DSC_7311.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 505px;
+}
+.item-2-9{
+    grid-area: img-2-6;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild6638-3461-4036-b063-646437323337/DSC_2165___2.jpeg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 640px;
+    margin-left: 20%;
+}
+.item-2-10{
+    grid-area: emty-2-4;
+    text-align: center;
+}
+
 .over
 {
     font-family: "Droid Sans Mono", sans-serif;
