@@ -230,6 +230,13 @@ html
     -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 0.5s;
     transition: width 2s, height 2s, background-color 2s, transform 0.5s;
 }
+.new2 #event{
+    margin-top: -1100px;
+    text-align: center;
+    font-size: 220px;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 0.5s;
+    transition: width 2s, height 2s, background-color 2s, transform 0.5s;
+}
 .pulse-button{
     display: flex;
     flex-wrap: wrap;
