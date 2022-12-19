@@ -30,6 +30,28 @@ html
 /*burger*/
 .nav
 {
+    position: fixed;
+    font-size: 30px;
+    display: none;
+    z-index: 5;
+}
+
+#burger
+{
+    position: fixed;
+    right: 0;
+    margin: 0 15px 0 0;
+    cursor: pointer;
+}
+
+#toggle
+{
+    display: none;
+}
+/*burger*/
+
+.nav
+{
     font-size: 30px;
     width: 100%;
     display: none;
@@ -873,29 +895,6 @@ div{
 
 @media only screen and (max-width: 900px) {
 
-/*burger*/
-    .nav
-    {
-        display: initial;
-    }
-
-    #burger
-    {
-        cursor: pointer;
-    }
-
-    .head
-    {
-        display: none;
-    }
-
-    #toggle:checked + .head
-    {
-        display: flex;
-        justify-content: space-between;
-    }
-/*burger    */
-
     .img-set-1{
         display: inline;
         margin: auto auto;
@@ -934,6 +933,45 @@ div{
  }
 
 @media (max-width: 959px) {
+
+    /*burger*/
+    .nav
+    {
+        z-index: 1002;
+        display: initial;
+    }
+
+    .topmenu > li:hover .head
+    {
+        overflow: initial;
+    }
+
+    .head
+    {
+        display: none;
+        z-index: 1001;
+        margin: 0;
+        height: 0;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+    }
+
+    .head div
+    {
+        margin: 2% 0 0 5%;
+        width: 90%;
+    }
+
+    #toggle:checked + .head
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+    }
+    /*burger    */
+
     .head h1{
         font-size: 40px;
 
