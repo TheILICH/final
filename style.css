@@ -18,6 +18,33 @@ html
     display: flex;
     justify-content: space-between;
 }
+
+/*burger*/
+.nav
+{
+    font-size: 30px;
+    width: 100%;
+    display: none;
+    float: right;
+    margin-right: 5px;
+}
+
+#burger
+{
+    float: right;
+}
+
+#toggle
+{
+    display: none;
+}
+
+
+
+
+/*burger*/
+
+
 .head h1{
     font-size: 40px;
 }
@@ -429,6 +456,30 @@ div{
 
 
 @media only screen and (max-width: 900px) {
+
+/*burger*/
+    .nav
+    {
+        display: initial;
+    }
+
+    #burger
+    {
+        cursor: pointer;
+    }
+
+    .head
+    {
+        display: none;
+    }
+
+    #toggle:checked + .head
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+/*burger    */
+
     .img-set-1{
         display: inline;
         margin: auto auto;
