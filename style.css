@@ -544,6 +544,86 @@ html
     grid-area: empty-3-6;
     text-align: center;
 }
+.grid-container-4 {
+    margin: 0 50px 0 50px;
+    display: grid;
+    grid-template-areas:
+'img-4-1 img-4-1 img-4-1 empty-4-1'
+'empty-4-2 img-4-2 img-4-2 empty-4-3'
+'img-4-3 img-4-3 img-4-4 img-4-4'
+'empty-4-4 img-4-5 img-4-5 empty-4-5';
+    column-gap: 100px;
+    row-gap: 10px;
+    margin-left: 5%;
+}
+.item-4-1{
+    grid-area: img-4-1;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild3538-3638-4565-a435-613462326137/DSC09302.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    margin-left: 10%;
+    position: relative;
+    height: 640px;
+}
+.item-4-2{
+    grid-area: empty-4-1;
+    text-align: center;
+}
+.item-4-3{
+    grid-area: empty-4-2;
+    text-align: center;
+}
+.item-4-4{
+    grid-area: img-4-2;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild6435-3835-4531-b739-646462373733/DSC03889.jpeg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 477px;
+}
+.item-4-5{
+    grid-area: empty-4-3;
+    text-align: center;
+}
+.item-4-6{
+    grid-area: img-4-3;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild3430-3461-4662-b736-636238336137/DSC00343.jpeg");
+    background-size: 100% 100%;
+    width: 80%;
+    margin-left: 20%;
+    position: relative;
+    height: 400px;
+}
+.item-4-7{
+    grid-area: img-4-4;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild3230-3830-4337-b361-616266376364/DSC07506-2.jpeg");
+    background-size: 100% 100%;
+    width: 80%;
+    margin-right: 20%;
+    position: relative;
+    height: 400px;
+}
+.item-4-8{
+    grid-area: empty-4-4;
+    text-align: center;
+}
+.item-4-9{
+    grid-area: img-4-5;
+    text-align: center;
+    background:url("https://static.tildacdn.com/tild3633-3831-4536-b030-393435643263/DSC03794__.jpeg");
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 544px;
+}
+.item-4-10{
+    grid-area: empty-4-5;
+    text-align: center;
+}
 .over
 {
     font-family: "Droid Sans Mono", sans-serif;
