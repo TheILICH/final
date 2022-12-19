@@ -441,7 +441,7 @@ div{
         background: white;
         color: black; 
         font-weight: bold;
-        font-size: 35px;
+        font-size: 45px;
         cursor: pointer;
         box-shadow: 0 5px 20px black;
       }
@@ -449,7 +449,13 @@ div{
         background: black;
         color: white;
       }
-
+      .btn a{
+        text-decoration: none;
+        color: black;
+      }
+      .btn a:hover{
+        color: white;
+      }
 .textph{
     box-sizing: border-box;
     display: flex;
