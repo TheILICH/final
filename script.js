@@ -78,3 +78,68 @@ document.addEventListener('scroll', function(e) {
         slow_scroll(photo,lastKnownScrollPosition*0.1);
     });
 });
+
+const animate1 = (element,position) => {
+     element.style.transform = `translateX(${position}px)`
+} 
+
+btn1.addEventListener('mouseover', function(e) {
+  lastKnownScrollPosition = window.scrollY;
+    
+   window.requestAnimationFrame(function() {
+      animate1(btn1,lastKnownScrollPosition*0.01)   
+    });
+});
+btn1.addEventListener('mouseout', function(e) {
+ window.requestAnimationFrame(function() {
+      animate1(btn1,lastKnownScrollPosition*-0.001)   
+    });
+});
+btn2.addEventListener('mouseover', function(e) {
+  lastKnownScrollPosition = window.scrollY;
+    
+   window.requestAnimationFrame(function() {
+      animate1(btn2,lastKnownScrollPosition*-0.01)   
+    });
+});
+btn2.addEventListener('mouseout', function(e) {
+ window.requestAnimationFrame(function() {
+      animate1(btn2,lastKnownScrollPosition*0.001)   
+    });
+});
+btn3.addEventListener('mouseover', function(e) {
+  lastKnownScrollPosition = window.scrollY;
+    
+   window.requestAnimationFrame(function() {
+      animate1(btn3,lastKnownScrollPosition*0.01)   
+    });
+});
+btn3.addEventListener('mouseout', function(e) {
+ window.requestAnimationFrame(function() {
+      animate1(btn3,lastKnownScrollPosition*-0.001)   
+    });
+});
+btn4.addEventListener('mouseover', function(e) {
+  lastKnownScrollPosition = window.scrollY;
+    
+   window.requestAnimationFrame(function() {
+      animate1(btn4,lastKnownScrollPosition*-0.01)   
+    });
+});
+btn4.addEventListener('mouseout', function(e) {
+ window.requestAnimationFrame(function() {
+      animate1(btn4,lastKnownScrollPosition*0.001)   
+    });
+});
+btn5.addEventListener('mouseover', function(e) {
+  lastKnownScrollPosition = window.scrollY;
+    
+   window.requestAnimationFrame(function() {
+      animate1(btn5,lastKnownScrollPosition*0.01)   
+    });
+});
+btn5.addEventListener('mouseout', function(e) {
+ window.requestAnimationFrame(function() {
+      animate1(btn5,lastKnownScrollPosition*-0.001)   
+    });
+});
