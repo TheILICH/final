@@ -6,10 +6,18 @@ html
     background: linear-gradient(180deg, #f2fdfd 20%, #ddc2e4 51%, #fdffbb 75%, #c4b5ff 85%, #ffc3f5 95%, #f2fdfd 100%);
 }
 *{
+    animation: hey 0.8s;
     font-family: 'Poppins', sans-serif;
     margin: 0; padding: 0;
     text-decoration: none;
 }
+@keyframes hey{
+            from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+         }
+        }
 
 .head{
     height: 100px;
@@ -119,11 +127,13 @@ html
     overflow: hidden;
 }
 .text h1{
+    animation: fadeIn 0.8s;
     font-weight: bold;
     font-size: 140px;
     transition: 0.2s linear;
 }
 .text h5{
+    animation: fadeIn 0.8s;
     font-weight: bold;
     color: #fad900;
     font-size: 28px;
@@ -817,7 +827,7 @@ div{
         background: white;
         color: black; 
         font-weight: bold;
-        font-size: 45px;
+        font-size: 50px;
         cursor: pointer;
         box-shadow: 0 5px 20px black;
       }
@@ -837,15 +847,27 @@ div{
     display: flex;
 }
 .textph img{
+    animation: fadeIn 0.8s;
     border-radius: 50%;
     width: 250px;
     height: 250px;
     margin-left: 230px;
 }
 .textph h1{
+    animation: fadeIn 0.8s;
     font-size: 65px;
     text-align: center;
 }
+@keyframes fadeIn{
+         from{
+            opacity: 0;
+            transform: translateY(-80px);
+         } to{
+            opacity: 1;
+            transform: translateY(0);
+         }
+        }
+
 .texttt{
     text-align: center;
 }
@@ -1033,11 +1055,6 @@ div{
     font-size: 40px;
     text-align: center;
 }
-.item-5-8 .pulse-button-ph{
-    margin-top: 450px;
-    margin-right: 800px;
-}
-
     .texttt h1{
         font-size: 30px;
     }
