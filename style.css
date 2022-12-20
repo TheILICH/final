@@ -1355,4 +1355,31 @@ div{
         font-size: 62px;
        margin-top: 40px;
     }
+    .grid-container-1{
+        display: block;
+    }
+    .grid-container2{
+        display: block;
+    }
+    .item-2-1{
+        height: 496px;
+    }
+    .item-2-2{display: none}
+    .item-2-3{}
+    .item-2-4{
+        display: none;}
+    .item-2-5{
+        width: 100%;
+        margin-left: 0;
+    }
+    .item-2-6{ display: none}
+    .item-2-7{}
+    .item-2-8{
+        height: 425px;
+    }
+    .item-2-9{
+        width: 100%;
+        margin-left: 0;
+    }
+    .item-2-10{ display: none}
 }
