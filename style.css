@@ -1140,6 +1140,34 @@ div{
         width: 125%;
     }
     .item-2-10{}
+    .grid-container-3{
+        column-gap: 20px;
+    }
+    .item-3-1{}
+    .item-3-2{
+        width: 140%;
+        margin-left: -20%;
+        height: 367px;
+    }
+    .item-3-3{}
+    .item-3-4{}
+    .item-3-5{
+        height: 434px;
+        width: 150%;
+        margin-left: -30%;
+    }
+    .item-3-6{}
+    .item-3-7{
+        height: 271px;
+    }
+    .item-3-8{}
+    .item-3-9{
+        height: 441px;
+    }
+    .item-3-10{
+        height: 370px;
+    }
+    .item-3-11{}
     }
 
 
