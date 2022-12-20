@@ -1204,6 +1204,35 @@ div{
         height: 279px;
     }
     .item-4-10{}
+    .grid-container-5{
+        column-gap: 20px;
+    }
+    .item-5-1{
+        height: 367px;
+    }
+    .item-5-2{}
+    .item-5-3{
+        height: 225px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .item-5-4{
+        height: 225px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .item-5-5{}
+    .item-5-6{
+        height: 406px;
+        width: 130%;
+        margin-left: -30%;
+    }
+    .item-5-7{}
+    .item-5-8{
+        height: 362px;
+        width: 100%;
+    }
+    .item-5-9{}
     }
 
 
