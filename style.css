@@ -1230,12 +1230,41 @@ html
         width: 100%;
     }
     .item-5-9{}
+    .new1 #wed{
+        font-size: 180px;
+    }
+    .new2 #photo{
+        font-size: 180px;
+    }
+    .new2 #cars{
+        font-size: 180px;
+    }
+    .new2 #content{
+        font-size: 180px;
+    }
+    .new2 #event{
+        font-size: 180px;
     }
 
 
 
 
 @media (max-width: 639px) {
+    .new1 #wed{
+        font-size: 100px;
+    }
+    .new2 #photo{
+        font-size: 100px;
+    }
+    .new2 #cars{
+        font-size: 100px;
+    }
+    .new2 #content{
+        font-size: 100px;
+    }
+    .new2 #event{
+        font-size: 100px;
+    }
     .head h1{
         font-size: 20px;
 
