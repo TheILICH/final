@@ -1159,13 +1159,18 @@ div{
     .item-3-6{}
     .item-3-7{
         height: 271px;
+        width: 85%;
     }
     .item-3-8{}
     .item-3-9{
         height: 441px;
+        width: 80%;
+        /*margin-left: -20%;*/
     }
     .item-3-10{
         height: 370px;
+        width: 130%;
+        margin-left: -30%;
     }
     .item-3-11{}
     }
