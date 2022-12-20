@@ -229,43 +229,43 @@ html
     padding-left: 15px;
 }
 .new1 h1{
-    font-size: 170px;
+    font-size: 220px;
     text-align: center;
 }
 .new1 #wed{
     text-align: center;
-    font-size: 220px;
+    /*font-size: 220px;*/
     -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 0.5s;
     transition: width 2s, height 2s, background-color 2s, transform 0.5s;
 }
-.new2 #photo{
+.new1 #photo{
     margin-top: -300px;
     text-align: center;
-    font-size: 220px;
+    /*font-size: 220px;*/
     -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 0.5s;
     transition: width 2s, height 2s, background-color 2s, transform 0.5s;
 }
-.new2{
+.new1{
     height: 400px;
 }
-.new2 #content{
+.new1 #content{
     margin-top: -600px;
     text-align: center;
-    font-size: 220px;
+    /*font-size: 220px;*/
     -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 0.5s;
     transition: width 2s, height 2s, background-color 2s, transform 0.5s;
 }
-.new2 #cars{
+.new1 #cars{
     margin-top: -800px;
     text-align: center;
-    font-size: 220px;
+    /*font-size: 220px;*/
     -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 0.5s;
     transition: width 2s, height 2s, background-color 2s, transform 0.5s;
 }
-.new2 #event{
+.new1 #event{
     margin-top: -1100px;
     text-align: center;
-    font-size: 220px;
+    /*font-size: 220px;*/
     -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 0.5s;
     transition: width 2s, height 2s, background-color 2s, transform 0.5s;
 }
@@ -894,7 +894,18 @@ div{
 
 
 @media only screen and (max-width: 959px) {
-
+    .new1 h1{
+        font-size: 170px;
+    }
+    .new1 #content{
+        margin-top: -300px;
+    }
+    .new1 #cars{
+        margin-top: -500px;
+    }
+    .new1 #event{
+        margin-top: -800px;
+    }
     .img-set-1{
         display: inline;
         margin: auto auto;
@@ -1239,6 +1250,21 @@ div{
 
 
 @media (max-width: 639px) {
+    .new1 h1{
+        font-size: 110px;
+    }
+    .new1 #photo{
+        margin-top: -100px;
+    }
+    .new1 #content{
+        margin-top: -400px;
+    }
+    .new1 #cars{
+        margin-top: -600px;
+    }
+    .new1 #event{
+        margin-top: -800px;
+    }
     .head h1{
         font-size: 20px;
 
