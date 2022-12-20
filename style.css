@@ -795,7 +795,7 @@ html
     font-size: 30px;
 }
 div{
-    border: 1px solid red;
+    border: 1px solid transparent;
 }
 .new1{
     top: -200px;
