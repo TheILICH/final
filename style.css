@@ -794,9 +794,6 @@ html
     font-weight: bold;
     font-size: 30px;
 }
-div{
-    border: 1px solid red;
-}
 .new1{
     top: -200px;
     z-index: -1;
