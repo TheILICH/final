@@ -275,9 +275,9 @@ html
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
     padding: 10px;
     border: none;
     background: black;
