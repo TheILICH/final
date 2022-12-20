@@ -1382,4 +1382,62 @@ div{
         margin-left: 0;
     }
     .item-2-10{ display: none}
+    .grid-container-3{
+        display: block;
+    }
+    .item-3-1{display: none}
+    .item-3-2{
+        width: 100%;
+        margin-left: 0;
+    }
+    .item-3-3{display: none}
+    .item-3-4{display: none}
+    .item-3-5{
+        width: 100%;
+        margin-left: 0;
+    }
+    .item-3-6{display: none}
+    .item-3-7{
+        /*height: 223px;*/
+        width: 100%;
+    }
+    .item-3-8{display: none}
+    .item-3-9{
+        height: 490px;
+        width: 100%;
+    }
+    .item-3-10{
+        height: 429px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .item-3-11{display: none}
+    .grid-container-4{
+        display: block;
+    }
+    .item-4-1{
+        width: 100%;
+        margin-left: 0;
+        height: 270px;
+    }
+    .item-4-2{display: none}
+    .item-4-3{display: none}
+    .item-4-4{
+        width: 100%;
+        margin-left: 0;
+        height: 300px;
+    }
+    .item-4-5{display: none}
+    .item-4-6{
+        height: 250px;
+    }
+    .item-4-7{
+        height: 250px;
+    }
+    .item-4-8{display: none}
+    .item-4-9{
+        width: 100%;
+        margin-left: 0;
+    }
+    .item-4-10{display: none}
 }
