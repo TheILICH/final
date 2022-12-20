@@ -95,7 +95,7 @@ const animate1 = (element,position) => {
      element.style.transform = `translateX(${position}px)`
 } 
 
-btn1.addEventListener('mouseover', function(e) {
+/*btn1.addEventListener('mouseover', function(e) {
   lastKnownScrollPosition = window.scrollY;
     
    window.requestAnimationFrame(function() {
@@ -154,4 +154,4 @@ btn5.addEventListener('mouseout', function(e) {
  window.requestAnimationFrame(function() {
       animate1(btn5,lastKnownScrollPosition*-0.001)   
     });
-});
+});*/
