@@ -891,7 +891,9 @@ div{
         color: black;
     text-decoration: none;
     }
-
+.item-3-9 div{
+    position: relative; padding-left: 250px;padding-top: 750px
+}
 
 @media only screen and (max-width: 959px) {
     .new1 h1{
@@ -905,6 +907,9 @@ div{
     }
     .new1 #event{
         margin-top: -800px;
+    }
+    .item-3-9 div{
+        padding-top: 450px;
     }
     .img-set-1{
         display: inline;
